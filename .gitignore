@@ -1,0 +1,22 @@
+# Datasets and transcripts are generated from private codebases — never commit
+dataset*.jsonl
+dataset*.jsonl.val
+sessions/
+*.jsonl
+
+# Trained weights — publishing them is a separate decision from the pipeline
+adapters/
+*.gguf
+*.safetensors
+
+# Raw eval completions reconstruct private code; the xlsx carries the metrics
+eval/results*.json
+
+# Logs, scratch, tooling
+*.log
+__pycache__/
+bench-scratch/
+_merge_work/
+merge-status.json
+llama-bin/
+llama.cpp/

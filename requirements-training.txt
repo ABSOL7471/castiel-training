@@ -1,0 +1,10 @@
+# Castiel LoRA training dependencies (only needed for the training/ pipeline —
+# the main app stays dependency-free)
+torch>=2.3
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+bitsandbytes>=0.43 ; platform_system == "Linux"
+sentencepiece
+protobuf
