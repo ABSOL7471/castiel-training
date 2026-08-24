@@ -1,5 +1,7 @@
 # Castiel — fine-tune a local coding agent on your own code, on a 12 GB GPU
 
+[![CI](https://github.com/ABSOL7471/castiel-training/actions/workflows/ci.yml/badge.svg)](https://github.com/ABSOL7471/castiel-training/actions/workflows/ci.yml)
+
 Castiel is a QLoRA fine-tune of Qwen2.5-Coder-7B-Instruct that learns **your**
 codebase conventions and a disciplined coding-agent workflow — trained and served
 entirely on a single consumer GPU (RTX 3060, 12 GB), fully offline. This repo is
