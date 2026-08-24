@@ -74,6 +74,13 @@ developed AI-paired (Claude Code alongside the very model being trained).
 The safety stance throughout: capability comes from the model, boundaries come
 from the harness.
 
+## Author
+
+Jarrett Yount — licensed general contractor (Oregon CCB #244059) turned
+self-taught developer, building local-first AI systems and self-hosted web
+infrastructure for small businesses. Open to construction-tech and AI
+implementation roles. Contact: jarrettyount1@gmail.com
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
